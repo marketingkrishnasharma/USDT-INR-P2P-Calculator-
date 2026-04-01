@@ -1,0 +1,6 @@
+@echo off
+title P2P Calc
+echo Installing dependencies (first run only)...
+pip install customtkinter requests --quiet
+echo Launching P2P Calc...
+python main.py
